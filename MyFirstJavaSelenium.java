@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 public class MyFirstJavaSelenium {
     public static void main(String[] args) {
         // 1. Set the system property to specify the path to the GeckoDriver executable.
-        System.setProperty("webdriver.gecko.driver", "C:\\Drivers\\Selenium\\firefox\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "/Users/lubaizhao/Documents/testproj/geckodriver");
 
         // 2. Create a new instance of the FirefoxDriver, which launches the Firefox browser.
         WebDriver driver = new FirefoxDriver();
